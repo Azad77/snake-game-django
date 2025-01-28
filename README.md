@@ -39,24 +39,36 @@ snake_game/
 │   ├── settings.py           # Project settings
 │   ├── urls.py               # Main project URLs
 │   └── wsgi.py
-
+```
 # Installation and Setup 🛠️
 Follow these steps to set up and run the project on your local machine.
 
 1. Clone the Repository
+```bash
 git clone https://github.com/yourusername/snake-game-django.git
 cd snake-game-django
-2. Create and Activate a Virtual Environment
+```
+3. Create and Activate a Virtual Environment
+ ```bash
 python -m venv env
 source env/bin/activate  # On Windows, use `env\Scripts\activate`
-3. Install Dependencies
+```
+5. Install Dependencies
+```bash
 pip install -r requirements.txt
-4. Set Up the Database
+```
+6. Set Up the Database
+```bash
 python manage.py migrate
-5. Collect Static Files
+```
+7. Collect Static Files
+```bash
 python manage.py collectstatic
-6. Run the Server
+```
+8. Run the Server
+```bash
 python manage.py runserver
+```
 Access the game at http://127.0.0.1:8000/.
 
 # How It Works ⚙️
