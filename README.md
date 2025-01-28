@@ -9,7 +9,6 @@ Welcome to the Snake Game Project! This project demonstrates how to build a full
 - **Backend Logic:** Leverage Django views for routing and backend functionality.
 
 ## Project Structure 🗂️
-## Project Structure 🗂️
 
 ```plaintext
 snake_game/
