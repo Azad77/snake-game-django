@@ -1,0 +1,22 @@
+<!-- 
+ Author: Dr. Azad Rasul
+Affiliation: Soran University
+Email: azad.rasul@soran.edu.iq
+Year: 2025 
+-->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Snake Game</title>
+    <link rel="stylesheet" href="{% static 'snake/css/style.css' %}">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="500" height="500"></canvas>
+    </div>
+    <script src="{% static 'snake/js/game.js' %}"></script>
+</body>
+</html>
